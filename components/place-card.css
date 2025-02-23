@@ -1,6 +1,7 @@
 .outline-button-wrapper {
   display: contents;
 }
+ 
 .outline-button-container {
   display: flex;
   position: relative;
@@ -12,6 +13,7 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .place-card-image {
   width: 100%;
   height: 250px;
@@ -19,6 +21,7 @@
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
 }
+ 
 .place-card-container2 {
   width: 100%;
   display: flex;
@@ -26,20 +29,24 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .place-card-text1 {
   color: var(--dl-color-gray-black);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
 }
+ 
 .place-card-text2 {
   font-size: 12px;
 }
+ 
 .place-cardroot-class-name {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
   opacity: 1;
 }
+ 
 @media(max-width: 991px) {
   .place-card-text1 {
     font-size: 20px;
@@ -47,6 +54,7 @@
     font-weight: 700;
   }
 }
+ 
 @media(max-width: 767px) {
   .place-card-container1 {
     width: 200px;
@@ -61,6 +69,7 @@
     font-size: 12px;
   }
 }
+ 
 @media(max-width: 479px) {
   .place-card-container1 {
     width: 300px;
